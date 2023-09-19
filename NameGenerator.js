@@ -87,4 +87,4 @@ const generateName = () => {
     return maleNames[Math.floor(Math.random() * maleNames.length)]
 }
 
-console.log(generateName())
+console.log(`Your new name: ${generateName()}`)
