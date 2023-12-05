@@ -1,18 +1,18 @@
-import fetch from 'node-fetch';
+console.log("Hello")
 
 const fetchData = async (url) => {
-    const response = await fetch('https://robohash.org/avb');
-    return response.blob();
+    const response = await fetch('https://newsapi.org/v2/everything?q=tesla&from=2023-11-05&sortBy=publishedAt&apiKey=07acc4f2f3284655af7e6afc4b4b2435');
+    return response.json();
 }
 
-fetchData().then((e) =>{
-    console.log(typeof e);
-    const img = document.createElement('img');
-    const imgURL = URL.createObjectURL(e);
+const genereteArticles = async() => {
 
-    console.log(imgURL)
+    return fetchData();
+};
 
-    img.setAttribute('src', 'imgURL')
-    document.querySelector('header').append(img);
+genereteArticles().then((result) => {
+    console.log(result)
 })
+
+
 
