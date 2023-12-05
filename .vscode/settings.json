@@ -2,7 +2,7 @@
 
     "liveSassCompile.settings.formats": [
         {
-            "format": "expanded",
+            "format": "compressed",
             "extensionName": ".css",
             "savePath": "/dist",
             "savePathReplacementPairs": null
