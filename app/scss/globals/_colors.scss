@@ -1,3 +1,14 @@
 :root{
-    --clr-neutral-100: hsl(0, 0%, 100%) ;
+    --clr-neutral-100: hsl(0, 0%, 100%) ; // white
+    --clr-neutral-200: hsl(240, 5%, 91%); // lighter gray
+    --clr-neutral-300: hsl(240, 5%, 96%)  ; // light gray
+    --clr-neutral-400: hsl(232, 4%, 61%) ; // mid gray
+    --clr-neutral-500: hsl(240, 5%, 65%) ; // dark gray
+
+    --clr-neutral-600: hsl(236, 11%, 26%) ; // primary black
+    --clr-neutral-700: hsl(233, 27%, 13%) ; // secondary black
+
+    --clr-accent-primary:hsl(229, 96%, 64%) ; // accent blue
+    --clr-accent-light-primary:hsl(227, 100%, 98%);
 }
+ 

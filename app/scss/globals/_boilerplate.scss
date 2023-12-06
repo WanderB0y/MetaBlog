@@ -1,5 +1,7 @@
+@use '../util';
+
 *, *::before, *::after{
-    font-family: 'Work Sans', sans-serif;
+    font-family: util.$font-primary;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
