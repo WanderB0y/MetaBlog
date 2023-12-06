@@ -1,9 +1,11 @@
+@use '../util';
+
 header{
     display: flex;
     justify-content: space-between;
     height: 100px;
     align-items: center;
-    padding: 0 350px;
+    padding: 0 3.5vw;
 }
 
 .header-flex-group{
@@ -13,13 +15,12 @@ header{
     font-size: 1rem;
 }
 
-
-
-.search-container form{
+.search-container{
     background-color: var(--clr-neutral-300);
     display: flex;
     align-items: center;
     max-width: 166px;
+    font-family: util.$font-for-search;
 
 }
 
@@ -29,11 +30,14 @@ header{
     border: none;
     width: 100%;
     padding-left: 16px;
+    font-size: 0.9rem;
 }
+
 .search-container button{
     background: none;
     border: none;
     padding-right: 8px;
     margin-left: 8px;
+
 }
 
