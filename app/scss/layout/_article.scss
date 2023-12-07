@@ -9,9 +9,13 @@
     &__author--information{
         display: flex;
         align-items: center;
+        gap: 24px;
+        font-size: 0.9rem;
+        margin-bottom: 32px;
     }
 
     &__image{
         width: 100%;
+        margin-bottom: 32px;
     }
 }
