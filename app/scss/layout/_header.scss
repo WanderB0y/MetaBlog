@@ -7,23 +7,7 @@
     align-items: center;
     padding: 0 3.5vw;
     
-    @media (max-width:  769px){
-        &__icon--container img:first-child{
-            display: inline-block;
-        }
-        &__icon--container img:last-child{
-            display: none;
-        }
-    }
 
-    @media (min-width: 770px) {
-        &__icon--container img:first-child{
-            display: none;
-        }
-        &__icon--container img:last-child{
-            display: inline-block;
-        }
-    }
 
     &__nav--group{
         display: flex;
@@ -55,5 +39,34 @@
         padding-right: 8px;
         margin-left: 8px;
     }
+
+
+
+    @media (max-width:  769px){
+        &__icon--container img:first-child{
+            display: inline-block;
+        }
+        &__icon--container img:last-child{
+            display: none;
+        }
+        
+        &__hamburger{
+            display: none;
+        }
+        
+    }
+
+    @media (min-width: 770px) {
+        &__icon--container img:first-child{
+            display: none;
+        }
+        &__icon--container img:last-child{
+            display: inline-block;
+        }
+        &__hamburger{
+            display: none;
+        }
+    }
+
 }
 
