@@ -1,0 +1,7 @@
+.footer{
+    --max-width:1024px;
+    --padding: 2rem;
+
+    width: min(var(--max-width), 100% - var(--padding));
+    margin-inline:auto;
+}
