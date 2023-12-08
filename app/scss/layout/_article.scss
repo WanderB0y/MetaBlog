@@ -1,3 +1,5 @@
+@use '../util';
+
 .article{
     max-width: 800px;
 
@@ -17,5 +19,16 @@
     &__image{
         width: 100%;
         margin-bottom: 32px;
+    }
+
+    &__content{
+        font-family: util.$font-for-paragraph;
+        font-size:1.25rem;
+        line-height: 1.8;
+        margin-bottom: 80px;
+    }
+
+    &__content::first-letter{
+        initial-letter: 3;
     }
 }

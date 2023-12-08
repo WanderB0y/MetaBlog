@@ -10,7 +10,7 @@
     width: min(var(--max-width), 100% - var(--padding));
     margin-inline:auto;
     justify-content: space-between;
-    height: 100px;
+    height: 6.25rem;
     
     &__icon--container img:last-child{
         display: none;
@@ -20,7 +20,7 @@
     &__nav--group{
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 2.5rem;
         font-size: 1rem;
     }
     
@@ -56,7 +56,7 @@
         display: none;
     }
 
-    @media (max-width:  1024px) {
+    @media (max-width: 64em) {
         &__nav--group{
             display: none;
         }
@@ -65,13 +65,13 @@
         }
     }
 
-    @media (max-width:  769px){
+    @media (max-width: 48.065em){
         &__search--container{
             display: none;
         }
     }
 
-    @media (min-width: 770px) {
+    @media (min-width: 48.125em) {
         &__icon--container img:first-child{
             display: none;
         }

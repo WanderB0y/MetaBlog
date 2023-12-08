@@ -5,12 +5,23 @@
     --clr-neutral-400: hsl(232, 4%, 61%) ; // mid gray
     --clr-neutral-500: hsl(240, 5%, 65%) ; // dark gray
 
-    --clr-neutral-600: hsl(236, 11%, 26%) ; // primary black
-    --clr-neutral-700: hsl(233, 27%, 13%) ; // secondary black
+    --clr-neutral-600: hsl(235, 5%, 44%); //lighter black
+    --clr-neutral-700: hsl(236, 11%, 26%) ; // primary black
+    --clr-neutral-800: hsl(233, 27%, 13%) ; // secondary black
 
     --clr-accent-primary:hsl(229, 96%, 64%) ; // accent blue
     --clr-accent-light-primary:hsl(227, 100%, 98%); 
 
+
     --border-grid: var(--clr-neutral-300);
 }
  
+.txt-neutral-600{
+    color: var(--clr-neutral-600);
+}
+.txt-neutral-700{
+    color: var(--clr-neutral-700);
+}
+.txt-neutral-800{
+    color: var(--clr-neutral-800);
+}
