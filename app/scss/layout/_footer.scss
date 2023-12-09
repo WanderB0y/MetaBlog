@@ -105,6 +105,12 @@
         }
     }
 
+    &__tail--left{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
     
 
     @media (max-width:915px) {
