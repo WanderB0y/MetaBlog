@@ -25,8 +25,8 @@ function pickRandom(articles) {
 
 
 const displayContent = (articles) => {
-    loadingAnimation.style.display = 'none'
-    article.style.display = 'flex'
+    loadingAnimation.style.display = 'none';
+    article.style.display = 'flex';
 
     articleImage.setAttribute('src',articles.urlToImage)
     articleTitle.textContent = articles.title;
