@@ -1,0 +1,90 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --website-background-colour: rgba(43, 43, 43, 1);
+    --primary-colour-dark-grey: rgba(59, 59, 59, 1);
+  
+    --font-family-medium: "Epilogue-Medium", Helvetica;
+    --font-family-regular: "Epilogue-Regular", Helvetica;
+    --font-family-semibold: "Epilogue-SemiBold", Helvetica;
+  
+    --h1-big: {
+      font-family: var(--font-family-medium);
+      font-weight: 500;
+      font-size: 45px;
+      letter-spacing: 0px;
+      line-height: 65px;
+      font-style: normal;
+    };
+  
+    --h1-small: {
+      font-family: var(--font-family-medium);
+      font-weight: 500;
+      font-size: 30px;
+      letter-spacing: 0px;
+      line-height: 50px;
+      font-style: normal;
+    };
+  
+    --h1-small-bold: {
+      font-family: var(--font-family-semibold);
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 30px;
+      font-style: normal;
+    };
+  
+    --h2: {
+      font-family: var(--font-family-medium);
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 1px;
+      line-height: 36px;
+      font-style: normal;
+    };
+  
+    --h2-small-regular: {
+      font-family: var(--font-family-regular);
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 30px;
+      font-style: normal;
+    };
+  
+    --h3-regular: {
+      font-family: var(--font-family-regular);
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 0px;
+      line-height: 28px;
+      font-style: normal;
+    };
+  
+    --h3-medium: {
+      font-family: var(--font-family-medium);
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 0px;
+      line-height: 36px;
+      font-style: normal;
+    };
+  
+    --h3-semibold: {
+      font-family: var(--font-family-semibold);
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 0px;
+      line-height: 36px;
+      font-style: normal;
+    };
+  
+    --body-text: {
+      font-family: var(--font-family-regular);
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0px;
+      line-height: 24px;
+      font-style: normal;
+    };
+  }
