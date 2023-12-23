@@ -8,7 +8,6 @@ app.use(express.static('public'));
 
 
 app.get('/', async (req, res) => {
-    
     try {
         // const response = await axios.get('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=07acc4f2f3284655af7e6afc4b4b2435')
         res.render('index.ejs', { articles: response.data.articles })
