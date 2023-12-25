@@ -17,6 +17,22 @@ app.get('/', async (req, res) => {
     }
 })
 
+app.get('/blog', (req, res) => {
+    res.render('pages/blog.ejs')
+})
+
+app.get('/singlepost', (req, res) => {
+    res.render('pages/singlePost.ejs')
+})
+
+app.get('/pages', (req, res) => {
+    res.render('pages/pages.ejs')
+})
+
+app.get('/contacts', (req, res) => {
+    res.render('pages/contacts.ejs')
+})
+
 app.listen(port, () => {
-    console.log(`Serer is running on localhost:${port}`)
+    console.log(`Server is running on localhost:${port}`)
 })

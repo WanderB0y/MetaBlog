@@ -5,12 +5,14 @@
     --clr-accent-400: hsl(232, 96%, 59%);
   
     //Neutral Colors
+
+    --clr-light-neutral-50: hsl(0, 0%, 100%);
     --clr-neutral-100: hsl(240, 60%, 97%);
     --clr-neutral-200: hsl(210, 20%, 91%);
     --clr-neutral-300: hsl(215, 7%, 87%);
-    --clr-neutral-400: hsl(0, 0%, 100%);
-    --clr-neutral-500: hsl(234, 5%, 43%);
-    --clr-neutral-600:hsla(240, 5%, 65%, 1);
+    --clr-neutral-500: hsl(240, 5%, 96%);
+    --clr-neutral-600: hsl(234, 5%, 43%);
+    --clr-neutral-700:hsla(240, 5%, 65%, 1);
     --clr-neutral-900:hsla(236, 11%, 26%, 1);
   
     //Dark Mode
@@ -26,12 +28,22 @@
     --clr-dark-neutral-600: hsl(229, 3%, 60%);
     --clr-dark-neutral-700: hsl(231, 28%, 10%);
     --clr-dark-neutral-800: hsl(230, 41%, 8%);
+    --clr-dark-neutral-900: hsl(233, 27%, 13%);
   }
 
 
   .txt-neutral-900{
     color: var(--clr-neutral-900);
   }
-  .txt-neutral-600{
-    color: var(--clr-neutral-600);
+  .txt-neutral-700{
+    color: var(--clr-neutral-700);
+  }
+
+
+  
+  .bg-light-neutral-50{
+    background-color: var(--clr-light-neutral-50);
+  }
+  .bg-dark-neutral-900{
+    background-color: var(--clr-dark-neutral-900);
   }

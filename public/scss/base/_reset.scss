@@ -1,6 +1,7 @@
 /* Box Sizing */
 *, *::before, *::after {
   box-sizing: border-box;
+  transition: all 0.5s ease;
 }
 
 /* Reset Margin for Common Elements */
