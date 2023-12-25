@@ -1,0 +1,17 @@
+.header{
+    --max-width: 76.20em;
+    --padding: 2rem;
+
+    width: min(var(--max-width), 100% - var(--padding) * 2 );
+    margin-inline: auto;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--flexGroup{
+    display: flex;
+    gap: 2.5rem;
+}

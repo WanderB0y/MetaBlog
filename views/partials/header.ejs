@@ -1,12 +1,11 @@
 <div class="header">
   <div>
     <a href="/">
-      <img src="/images/metablog--favicon.svg" alt="" srcset="" />
       <img src="/images/metablog--icon--black.svg" alt="" srcset="" />
     </a>
   </div>
   <nav>
-    <ul>
+    <ul class="header--flexGroup txt-neutral-900">
       <li><a href="/">Home</a></li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="/singlepost">Single Post</a></li>
@@ -14,14 +13,20 @@
       <li><a href="/contacts">Contacts</a></li>
     </ul>
   </nav>
-  <div>
-    <search>
-      <form action="./search/">
+  <div class="header--flexGroup txt-neutral-600">
+    <search class="search">
+      <form class="search__container" action="./search/">
         <input placeholder="Search" type="search" id="movie" name="q" />
         <button type="submit">
           <img src="/images/search.svg" alt="" srcset="" />
         </button>
       </form>
     </search>
+    <button class="switch">
+      <div class="switch__container">
+        <img src="/images/sun--icon.svg" alt="" srcset="" />
+      </div>
+    </button>
   </div>
+  <script src="/js/components/switch.js"></script>
 </div>

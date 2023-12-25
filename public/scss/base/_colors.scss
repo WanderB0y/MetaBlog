@@ -1,0 +1,37 @@
+:root{
+    // Accent Colors
+    --clr-accent-900: hsl(234, 29%, 8%);
+    --clr-accent-800: hsl(234, 29%, 15%);
+    --clr-accent-400: hsl(232, 96%, 59%);
+  
+    //Neutral Colors
+    --clr-neutral-100: hsl(240, 60%, 97%);
+    --clr-neutral-200: hsl(210, 20%, 91%);
+    --clr-neutral-300: hsl(215, 7%, 87%);
+    --clr-neutral-400: hsl(0, 0%, 100%);
+    --clr-neutral-500: hsl(234, 5%, 43%);
+    --clr-neutral-600:hsla(240, 5%, 65%, 1);
+    --clr-neutral-900:hsla(236, 11%, 26%, 1);
+  
+    //Dark Mode
+    --clr-dark-accent-400: hsl(235, 76%, 61%);
+  
+    //Neutral Colors
+    --clr-dark-neutral-50: hsl(0, 0%, 100%);
+    --clr-dark-neutral-100: hsl(223, 10%, 86%);
+    --clr-dark-neutral-200: hsl(229, 2%, 74%);
+    --clr-dark-neutral-300: hsl(232, 6%, 43%);
+    --clr-dark-neutral-400: hsl(230, 3%, 27%);
+    --clr-dark-neutral-500: hsl(229, 3%, 24%);
+    --clr-dark-neutral-600: hsl(229, 3%, 60%);
+    --clr-dark-neutral-700: hsl(231, 28%, 10%);
+    --clr-dark-neutral-800: hsl(230, 41%, 8%);
+  }
+
+
+  .txt-neutral-900{
+    color: var(--clr-neutral-900);
+  }
+  .txt-neutral-600{
+    color: var(--clr-neutral-600);
+  }
