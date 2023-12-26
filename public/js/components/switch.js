@@ -1,5 +1,6 @@
 const button = document.querySelector('.switch');
 const sun = document.querySelector('.switch__container');
+const head = document.querySelector('h1');
 
 let isSunRotated = true;
 
