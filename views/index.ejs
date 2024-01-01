@@ -3,7 +3,15 @@
   <%- include('partials/head.ejs') %>
   <body>
     <header><%- include('partials/header.ejs') %></header>
-    <main><%- include('partials/card--container.ejs') %></main>
+    <main>
+      <section class="hero section--contianer">
+        <div class="hero__placeholder--image"></div>
+        <div class="hero--card"></div>
+      </section>
+
+      <%- include('components/adsSpace.ejs') %> <%-
+      include('partials/card--container.ejs') %>
+    </main>
     <footer><%- include('partials/footer.ejs') %></footer>
   </body>
   <script src="/js/components/switch.js"></script>

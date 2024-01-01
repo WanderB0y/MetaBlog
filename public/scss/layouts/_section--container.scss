@@ -1,0 +1,8 @@
+.section--contianer{
+    --max-width: 1216px;
+    --padding: 2rem;
+
+    width: min(var(--max-width), 100% - var(--padding));
+    margin-inline: auto;
+    margin-bottom: 80px;
+}
