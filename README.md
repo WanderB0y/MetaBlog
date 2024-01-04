@@ -1,1 +1,2 @@
 # MetaBlog
+LILIPAT NA AKO SA REACT
